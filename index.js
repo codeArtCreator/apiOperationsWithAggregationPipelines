@@ -1,6 +1,6 @@
 const express = require('express');
 const cors = require('cors')
-const productRoute = require('./routes/productRoutes')
+const productRoute = require('./src/routes/productRoutes')
 
 const app = express();
 app.use(express.json())
